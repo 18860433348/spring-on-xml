@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0" metadata-complete="true">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+
+    <!--根容器配置-->
+    <!--可以不配置 不配置默认找类路径下的  applicationContext.xml-->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:application.xml</param-value>
+    </context-param>
+
+    <!--一般不需要配置，不配置会默认生成一个容器id-->
+    <context-param>
+        <param-name>contextId</param-name>
+        <param-value>a test spring context</param-value>
+    </context-param>
+
+    <!--监听器-->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+
+    <!--配置前端控制器--><!--子容器配置-->
+    <servlet>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring-mvc.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- Map all requests to the DispatcherServlet for handling -->
+    <servlet-mapping>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>/do</url-pattern>
+    </servlet-mapping>
+
+
+    <!--字符过滤器 防止post提交乱码-->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

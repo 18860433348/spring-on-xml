@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.UserMapper">
+    <select id="selectUserById" resultType="User" parameterType="java.lang.Integer">
+        select * from user_info where id = #{id}
+    </select>
+
+    <select id="selectIdMax" resultType="java.lang.Integer">
+        select max(id) from user_info;
+    </select>
+
+    <insert id="addOneUser" parameterType="User">
+        INSERT INTO user_info (name,age) values(#{name},#{age})
+    </insert>
+</mapper>
