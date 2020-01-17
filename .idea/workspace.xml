@@ -6,70 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5a988c5-f1e1-4bca-a2c2-f13fae5806a0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/testmvc_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/testmvc_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dbconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-09" afterDir="false" />
+    <list default="true" id="c5a988c5-f1e1-4bca-a2c2-f13fae5806a0" name="Default" comment="代码调整">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_on_xml_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_on_xml_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +20,15 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand />
     <select />
   </component>
@@ -142,6 +87,7 @@
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -412,8 +358,16 @@
       <workItem from="1577327446938" duration="4079000" />
       <workItem from="1577343165505" duration="20405000" />
       <workItem from="1577414836435" duration="2861000" />
-      <workItem from="1579251292617" duration="36000" />
+      <workItem from="1579251292617" duration="169000" />
     </task>
+    <task id="LOCAL-00001" summary="代码调整">
+      <created>1579251371094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579251371094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -428,7 +382,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码调整" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="497" y="110" key="CommitChangelistDialog2" timestamp="1579251369445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="497" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579251369445" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1579251325886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -437,10 +399,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579251328790" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1579251376893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579251376893" />
     <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579251339196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579251339196" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579251453787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579251453787" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
