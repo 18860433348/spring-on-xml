@@ -14,6 +14,12 @@
         <param-value>classpath:application.xml</param-value>
     </context-param>
 
+    <!--添加一些自定义的类在spring未刷新前就实例化-->
+    <context-param>
+        <param-name>contextInitializerClasses</param-name>
+        <param-value>test.ComstomerApplicationInit</param-value>
+    </context-param>
+
     <!--一般不需要配置，不配置会默认生成一个容器id-->
     <context-param>
         <param-name>contextId</param-name>
@@ -39,7 +45,7 @@
     <!-- Map all requests to the DispatcherServlet for handling -->
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
-        <url-pattern>/do</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
 

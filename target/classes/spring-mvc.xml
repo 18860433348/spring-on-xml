@@ -11,7 +11,7 @@
        http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!-- 配置自动扫描的包 -->
-    <context:component-scan base-package="controller,service"/>
+    <context:component-scan base-package="controller,service,test*"/>
 
     <!--注解驱动-->
     <tx:annotation-driven/>

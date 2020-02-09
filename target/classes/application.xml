@@ -37,6 +37,9 @@
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
     </bean>
 
+    <bean id="testLifeCycle" class="test4.TestLifeCycle" />
+    <bean id="testLifeCycleNoAuto" class="test4.TestLifeCycleNoAuto"/>
+
     <!--mapper扫描-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="mapper"/>
